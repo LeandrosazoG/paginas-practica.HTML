@@ -1,0 +1,71 @@
+*{
+  background-color:#092327 ;
+}
+
+
+.menu {
+  list-style-type: none;
+  padding: 0;
+  background-color: #092327;
+  width: 100%;
+  max-width: 2000px;
+  margin: auto; /* Para centrar horizontalmente */
+  text-align: center; /* Para alinear los elementos del menú en el centro */
+}
+
+.menu li {
+  display: inline-block;
+
+}
+
+.menu li a {
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  display: block;
+  
+}
+
+.menu li a:hover {
+  background: #ef8354;
+}
+
+
+
+section{
+  display: flex;
+  width: 1000;
+  height: 900px;
+
+}
+
+section img{
+  width: 0px;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: .8;
+  transition: .5s ease;
+  
+}
+
+section img:hover{
+  cursor: crosshair;
+  width: 300;
+  opacity: 1;
+  filter: contrast(120%);
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    /* Estilos para pantallas pequeñas */
+  }
+  
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Estilos para pantallas medianas */
+  }
+  
+  @media only screen and (min-width: 1025px) {
+    /* Estilos para pantallas grandes */
+  }

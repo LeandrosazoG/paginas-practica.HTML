@@ -1,0 +1,116 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    background-image: url(imge/Imagen\ de\ WhatsApp\ 2024-01-22\ a\ las\ 16.14.58_cb79f818.jpg);
+    color:black;
+    text-align: center;
+ 
+}
+
+section {
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 1.5em;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+ header h1 {
+    animation: bounce 1s infinite;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    border: 2px solid white; /* Color del borde a tu preferencia */
+    padding: 10px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    display: inline-block;
+    overflow: hidden;
+    animation: moveLetters 3s infinite alternate;
+    }
+
+
+    .menu{
+        list-style-type:none;
+        padding:0;
+        background-color: #092327;
+        width: 100%;
+        max-width: 2000px;
+        margin:auto;
+        background-size: cover;
+    
+    }
+    
+    
+    .menu li a{
+        text-decoration: none;
+        color:white;
+        padding: 20px;
+        display: block;
+    }
+    
+    .menu li{
+        display: inline-block;
+        text-align: center;
+    }
+    
+    .menu li a:hover{
+        background: #ef8354;
+    }
+    
+
+
+    /* Estilo básico para el enlace de botón */
+.mi-boton {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid #3498db; /* Color del borde */
+    color: #ffffff; /* Color del texto */
+    background-color: #3498db; /* Color de fondo */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+/* Cambiar colores al pasar el mouse sobre el enlace de botón */
+.mi-boton:hover {
+    background-color: #2980b9; /* Nuevo color de fondo al pasar el mouse */
+    color: #ffffff; /* Nuevo color del texto al pasar el mouse */
+}
+
+
+    @keyframes moveLetters {
+        0% {
+            transform: translateY(0);
+        }
+        100% {
+            transform: translateY(-10px); /* Ajusta la distancia del movimiento vertical */
+        }
+    }
+    
+
+    @media only screen and (max-width: 600px) {
+        /* Estilos para pantallas pequeñas */
+      }
+      
+      @media only screen and (min-width: 601px) and (max-width: 1024px) {
+        /* Estilos para pantallas medianas */
+      }
+      
+      @media only screen and (min-width: 1025px) {
+        /* Estilos para pantallas grandes */
+      }
+    

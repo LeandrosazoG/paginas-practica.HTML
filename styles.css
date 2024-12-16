@@ -1,0 +1,138 @@
+body{
+   font-family: 'Segoe UI';
+   font-weight: 400;
+   background-color: #ededed;
+   
+
+}
+
+.menu{
+ list-style-type:none;
+ padding:0;
+ background-color: #092327;
+ width: 100%;
+ max-width: 2000px;
+ margin:auto;
+ background-size: cover;
+
+}
+
+
+.menu li a{
+ text-decoration: none;
+ color:white;
+ padding: 20px;
+ display: block;
+}
+
+.menu li{
+ display: inline-block;
+ text-align: center;
+}
+
+.menu li a:hover{
+ background: #ef8354;
+}
+
+
+
+.carousel-item {
+    height: 65vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+
+  *{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+footer{
+    background-color: #111;
+}
+
+.footerContainer{
+    width: 100%;
+    padding: 70px 30px 20px;
+
+}
+
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+
+.socialIcons a{
+   text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+
+}
+
+.socialIcons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+
+
+.socialIcons a:hover{
+    background-color: black;
+    transition: 0.5s;
+}
+
+.socialIcons a:hover i{
+    color: white;
+    transition: 9,5s;
+}
+
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+}
+
+.footerNav ul li a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+
+.footer ul li a:hover{
+    opacity: 1;
+
+}
+
+.footerBotton{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+
+.footerBottom p {
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    /* Estilos para pantallas pequeñas */
+  }
+  
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Estilos para pantallas medianas */
+  }
+  
+  @media only screen and (min-width: 1025px) {
+    /* Estilos para pantallas grandes */
+  }
+
